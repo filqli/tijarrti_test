@@ -1,0 +1,13 @@
+name: test_first_workflow
+
+on: 
+ push:
+
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest 
+    steps: 
+    - name: run test step
+     run: echo "step succeeded"
+     
